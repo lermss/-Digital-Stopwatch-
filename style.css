@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #221f21;
+    font-family: 'Orbitron', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    color: #e7dde7ee;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #f7f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(245, 2, 233, 0.5);
+    max-width: 400px;
+    width: 90%;
+}
+
+.display {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #d400ff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #d707f3e7;
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #c354dab6;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #bb07d3b0;
+    box-shadow: 0 0 15px #500540;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.laps {
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.lap-time {
+    background-color: #21022e75;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+    .display {
+        font-size: 2.5em;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    button {
+        width: 100%;
+    }
+}
