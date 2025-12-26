@@ -94,7 +94,7 @@ HH:MM:SS:Milliseconds
 
 Lerma Magno
 Pangasinan State University – IT Student
-🔗 GitHub: https://github.com/lermss/Weather-App
+🔗 GitHub: https://github.com/lermss/-Digital-Stopwatch-
 ---
 
 ## 📄 License
@@ -105,3 +105,4 @@ You are free to use, modify, and improve it for learning.
 ---
 
 ⭐ If you like this project, feel free to star the repository!
+
